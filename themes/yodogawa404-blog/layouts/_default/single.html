@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+{{- partial "head.html" . -}}
+<body>
+    <div id="root">
+        {{- partial "header.html" . -}}
+
+        <hr>
+
+        <div class="postTitle">
+            <span><b>{{.Title}}</b></span> - <span>{{.PublishDate.Format "2006 / 01 / 02"}}</span>
+        </div>
+        {{ .Content }}
+    </div>
+</body>
+</html>

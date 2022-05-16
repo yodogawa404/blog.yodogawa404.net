@@ -1,0 +1,4 @@
+baseURL = 'https://blog.yodogawa404.net/'
+languageCode = 'ja'
+title = 'よどがわのブログ'
+theme = 'yodogawa404-blog'

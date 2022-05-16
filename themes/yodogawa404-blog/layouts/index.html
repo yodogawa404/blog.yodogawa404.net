@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>よどがわのブログ</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <div id="root">
+        
+        {{- partial "header.html" . -}}
+        
+        <hr>
+
+        <h2>投稿一覧</h2>
+        {{ range .Site.RegularPages }}
+        <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+        {{ end }}
+        
+    </div>
+</body>
+</html>

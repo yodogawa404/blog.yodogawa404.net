@@ -1,0 +1,32 @@
+.icon {
+    vertical-align: middle;
+    width: 1.5em;
+    height: auto;
+}
+
+#root {
+    margin: 2.5%;
+    padding: 2.5%;
+    border:solid 1ex black;
+    background-color: lightsteelblue;
+}
+
+.blogTitle {
+    font-size: 32pt;
+}
+
+.postTitle {
+    vertical-align: middle;
+}
+
+.postTitle b {
+    font-size: 16pt;
+}
+
+hr {
+    display: block;
+    width: 80%;
+    height: 0.25ex;
+    background-color: white;
+    border: 0;
+}
