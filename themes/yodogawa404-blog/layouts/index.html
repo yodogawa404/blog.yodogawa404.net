@@ -17,6 +17,7 @@
         <h2>投稿一覧</h2>
         {{ range .Site.RegularPages }}
         <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+        <br>
         {{ end }}
         
     </div>
